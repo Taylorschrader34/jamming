@@ -1,8 +1,5 @@
 import SearchBar from "../Components/SearchBar/SearchBar";
 
-console.log(process.env)
-console.log(process.env.REACT_APP_SPOTIFY_CLIENT_KEY)
-
 const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_KEY;
 //https://developer.spotify.com/dashboard/applications/eded7fe9ae10427fa2473cf6c0adadd5
 // const redirectUri = "http://localhost:3000";
