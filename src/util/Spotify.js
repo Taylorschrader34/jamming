@@ -1,9 +1,11 @@
 import SearchBar from "../Components/SearchBar/SearchBar";
 
-const clientID = "65bfac8f08154cbdbc9633aae1ca66e0";
+const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_KEY;
 //https://developer.spotify.com/dashboard/applications/eded7fe9ae10427fa2473cf6c0adadd5
 // const redirectUri = "http://localhost:3000";
-const redirectUri = "http://RoyalJammingReact.surge.sh";
+// const redirectUri = "http://RoyalJammingReact.surge.sh";
+const redirectUri = "https://royaljamming.netlify.app/";
+
 let accessToken;
 
 const Spotify = {
